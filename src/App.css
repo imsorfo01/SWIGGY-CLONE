@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    padding: 10px;
+    background-color: #dbdfd4;
+}
+.logo img{
+    max-width: 120px;
+    height: 30px;
+    background: transparent;
+}
+.header{
+    position: relative;
+    top: 15px;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    background-color: rgb(240, 220, 220);
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+    
+}
+.navItem ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px; 
+    font-weight: bolder;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo span {
+    color: #112568;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.search{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.input{
+    outline: none;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 5px 20px 5px;
+    width: 40vw;
+    /* font-size: 20px; */
+    border-radius: 30px;
+    margin-right: 10px;
+}
+.cart{
+    margin-top: 5px;
+    max-width: 80vw;
+    margin: auto;
+}
+.cartlist{
+    width: 180px;
+    /* height: fit-content; */
+    padding: 5px;
+    /* text-align: center; */
+    /* position: relative; */
+    border-radius: 10px;
+    /* height: fit-content; */
+    
+}
+.cartlist img{
+    width: 170px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.cartItem{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    
+}
+.cartlist:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    
+}
+.img{
+    text-align: center;
+}
+.cartlogo{
+   max-width: 50px;
+   max-height: 20px;
+}
+.title{
+    color: blue;
+}
+.title:hover{
+   text-decoration: underline;
+
+}
+.description{
+    font-size: 10px;
+    max-height: 50px;
+    /* overflow-y: scroll; */
+    overflow: hidden;
+}
+.description:hover{
+    font-size: 16px;
+}
+.rating{
+    display: flex;
+}
+.ratebtn{
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 0px 3px ;
+    margin-right: 3px;
+    margin-bottom: 3px;border-radius: 3px;
+}
+.webhead{
+    font-family: 'Poppins', sans-serif;
+}
+.price{
+    font-size: 14px;
+    font-weight: bolder;
+}
+.filter{
+    text-align: center;
+}
+.bestRated{
+  max-width: 10vw;
+    margin-top: 2px;
+    padding: 3px 7px 3px ;
+    border: none;
+    color: black;
+    background-color: rgb(171, 173, 34);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    font-size: 10px;
+    position: absolute;
+    left: 10px;
+    top: 15vh;
+}
+
+.login{
+    padding: 5px 9px;
+    border: none;
+    margin-right: 5px;
+    color: blue;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.searchicon{
+    border: none;
+    padding: 10px ;
+    font-size: 13px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.searchicon:hover{
+    border: none;
+    font-size: 18px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: progress;
+}
+.result{
+  text-align: center;
+  color: blue;
+  font-size: 14px;
+  text-decoration: underline;
+}
+.mainAbout{
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+    top: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 70px;
+    /* color: red; */
+}
+.mainAbout img{
+    max-width: 300px;
+}
+.mainAbout p {
+    font-size: 13px;
+}
+.error{
+    position: relative;
+    top: 45vh;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+.error h3{
+    color: red;
+    text-align: center;
+}
+.mainContact{
+    max-width: 800px;
+    background-color: #1ead95;
+    margin: auto;
+    margin-top: 12vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+.cbtn{
+    margin-top: 20px;
+    padding: 5px 8px 5px;
+    background-color: #582828;
+    color: white;
+    border: none;
+    font-size: xx-large;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    
+}
+.filterlist{
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.filterlist button{
+    border: none;
+    padding: 3px;
+    background-color: #796464;
+    margin: 5px;
+    color: white;
+    border-radius: 5px;
+}
+
+.cart{
+    min-width: 80vw;
+    margin: auto;
+}
+
+
+.rate{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* gap: 7px; */
+    color: #08073f;
+}
+.starsym{
+    margin-right: 2px;
+    font-size: 15px;
+    height: 20px;
+    width: 20px;
+    background-color: green;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+}
+.ratenum{
+    font-weight: bolder;
+}
+.line{
+    height: 2px;
+    width: 90vw;
+    background-color: #443b3b;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.del {
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+}
+.cost{
+    color: black;
+    font-weight: bolder;
+}
+.offline{
+    text-align: center;
+    margin-top: 35vh;
+}
+.Iconnection{
+    color: red;
+    font-size: 18px;
+}
+.connection{
+    font-weight: 900;
+    text-decoration: underline;
+}
+.label{
+    background-color: #030b2e;
+    color: white;
+    position: absolute;
+    padding: 3px;
+    border-radius: 3px;
+}
+.menuPage{
+    width: 60vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 13px;
+}
+.cityname{
+    margin-top: 4px;
+    color: #726666;
+    position: relative;
+    left: 50px;
+}
+.place{
+    font-size: 14px;
+    color: #443b3b;
+}
+.starbtn{
+    text-align: center;
+    margin: 4px;
+    /* background-color: #fff; */
+    border: .5px solid #968f8f;
+    padding: 0px 3px;
+    color: #118811;
+    font-weight: bolder;
+}
+.starbtn2{
+    border: .5px solid #968f8f;
+    padding: 0px 3px;
+    color: #443b3b;
+}
+.menuHeader{
+    width: 50vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-shadow: #00000059 0px 5px 15px;
+    border-radius: 8px;
+}
+.menubox{
+    margin: 20px;
+    cursor: pointer;
+}
+.menuOuterBox{
+    width: 60vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-shadow: #00000059 0px 5px 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+/* .p{
+    position: absolute;
+    margin-top: 100px;
+} */
+.menu{
+    width: 50vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: #00000059 0px 5px 15px;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #e2aae250;
+}
+
+
+
+.menuImage{
+    width: 100px;
+    border-radius: 6px;
+}
+.foodName{
+    color: #030b2e;
+    font-size: 13px;
+    font-weight: 600;
+}
+.menuRight{
+    position: relative;
+}
+.Addbtn{
+    position: absolute;
+    right: 25px;
+    bottom: -8px;
+    padding: 5px 8px;
+    background-color: #1e8d24;
+    border: none;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+}
+.price{
+    font-size: 12px;
+}
+.description{
+    color: #443b3b;
+}
+.cartitem{
+    width: 50vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: #00000059 0px 5px 15px;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: #e2aae250;
+
+}
+.cartitemtxt{
+    margin-top: 20px;
+    font-weight: normal;
+    color: #443b3b;
+    text-align-last: center;
+}
+.cartbtn{
+    position: relative;
+    left: 47.5%;
+    margin-top: 20px;
+    padding: 5px 8px;
+    background-color: #161816;
+    border: none;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+}
+.emptycart{
+   width: 30vw;
+   margin: auto;
+}
+.emptyCartImage{
+    position: relative;
+    left: 100px;
+    margin-top: 20px;
+    opacity: .20;
+    height: 200px;
+}.emptyButton{
+    text-align: center;
+}
+
+.emptyButton{
+    text-align: center;
+    margin-top: 15px;
+    padding: 8px 7px ;
+    border: none;
+    background-color: #682c2c;
+    color: white;
+    font-size: 14px;
+}
+.menuDescription{
+    max-width: 500px;
+    color: #726666;
+}
